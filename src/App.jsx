@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 	const [data, setData] = React.useState();
-	const url = "http://localhost:8000";
+	const url = "https://serene-bastion-94289-1173a88eb08a.herokuapp.com/";
 
 	const GetData = () => {
 		axios.get(url).then((res) => {
