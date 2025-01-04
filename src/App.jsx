@@ -3,7 +3,7 @@ import axios from "axios";
 
 function App() {
 	const [data, setData] = React.useState();
-	const url = " https://stormy-wildwood-55177-3fddc74bdc1b.herokuapp.com/";
+	const url = " https://stormy-wildwood-55177-3fddc74bdc1b.herokuapp.com";
 
 	const GetData = () => {
 		axios.get(url).then((res) => {
