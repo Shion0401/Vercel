@@ -5,7 +5,7 @@ app = FastAPI()
 
 origins = [#í êMÇ∑ÇÈReactÇÃURL
     "http://localhost:3001",
-    "https://dashboard.heroku.com/apps/serene-bastion-94289",
+    "https://vercel-zeta-six-42.vercel.app/",
 ]
 
 app.add_middleware(
