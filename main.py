@@ -4,6 +4,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [#í êMÇ∑ÇÈReactÇÃURL
+    "http://localhost:3001",
     "https://vercel-zeta-six-42.vercel.app/",
 ]
 
